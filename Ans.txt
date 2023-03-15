@@ -1,0 +1,42 @@
+Q.1   Explain how does the internet work in your own words.
+Ans.   When a client access the internet, his device (such as a computer or smartphone) sends a request to a server. then server sends response to the client 
+
+Q.2   What are the core modules of node js?
+Ans.   Node.js has several built-in core modules that provide basic functionalities that are essential for developing Node.js applications.Some of the core modules of Node.js are:
+a. fs 
+b. http
+c. https
+d. path
+e. os
+f. events
+g. utils
+and many more.
+
+Q.3 Explain the use of each one of them in detail.
+Ans.  fs (File System) - The fs module provides an API for working with the file system. It allows you to read, write, and manipulate files and directories.
+
+http - The http module provides an API for creating HTTP servers and clients. It allows you to handle HTTP requests and responses.
+
+https - The https module provides an API for creating HTTPS servers and clients. It is similar to the http module but provides secure communication over the network.
+
+path - The path module provides utilities for working with file and directory paths. It allows you to manipulate file paths and convert between different path formats.
+
+os (Operating System) - The os module provides information about the operating system on which the Node.js is running. It allows you to access information about the CPU, memory, and network interfaces.
+
+events - The events module provides a way to handle and emit events. It allows you to create custom events and handle them using listeners.
+
+util (Utilities) - The util module provides a collection of utility functions for working with JavaScript objects. It includes functions for inheritance, type checking, and debugging.
+
+Q.4  What are relative path and absolute path? How to define them?
+Ans.  Relative Path:    A relative path is a path that is relative to the current working directory of the program or the user. It specifies the location of a file or directory relative to the location of the program or the user. Relative paths are generally shorter and easier to use than absolute paths. They are commonly used when referring to files and directories that are located within the same directory as the program or user.
+
+Absolute Path: An absolute path is a path that specifies the location of a file or directory in the file system from the root directory. It is a complete path that starts from the root directory and specifies the full path to the file or directory.
+
+Q.5  What does createServer do?
+Ans.    The createServer method takes a callback function as its argument, which will be called every time the server receives an HTTP request.
+
+Q.6  What are anonymous functions?
+Ans. An anonymous function is a function that does not have a name. 
+
+Q.7  What do you think server.listens exactly do?Why do we need it?
+Ans.  server.listen() is a method  that is used to start a server and listen for incoming client requests. When a client makes a request to the server, the server object emits a 'request' event that can be handled by a callback function to generate a response.
